@@ -39,6 +39,4 @@ app.register_blueprint(cart_bp)
 app.register_blueprint(order_bp)
 
 if __name__ == "__main__":
-    with app.app_context():
-        upgrade() 
     app.run(debug=True)
