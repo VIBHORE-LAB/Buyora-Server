@@ -1,2 +1,5 @@
 migrations/versions/350c7d1257de_.py
 migrations/
+venv/pyvenv.cfg
+venv/
+.flaskenv
