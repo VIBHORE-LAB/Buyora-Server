@@ -17,7 +17,7 @@ app.config.from_object(Config)
 
 CORS(
     app,
-    origins=["http://localhost:5173"],  
+    origins=["http://localhost:5173",    "https://buyora.netlify.app"     ],  
     supports_credentials=True,
     allow_headers=["Content-Type", "Authorization"],
     methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"]
